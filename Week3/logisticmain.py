@@ -25,7 +25,6 @@ updated_theta=res.x
 print(updated_theta)                                                          #printing updated theta to the screen
 
 from sigmoid import sigmoid
-#plt.scatter(45, 85, s=60, c='r', marker='v', label='(45, 85)')
 plotData(data, 'Exam 1 score', 'Exam 2 score', 'Admitted', 'Not admitted')
 x1_min, x1_max = X[:,1].min(), X[:,1].max(),                                                #taking min and max of marks in exam 1
 x2_min, x2_max = X[:,2].min(), X[:,2].max(),                                                # taking min and max of marks in exam 2
